@@ -20,10 +20,16 @@
 #     print(word)
 # password()
 
-def password():
-    random="person"
-    text=random.strip("pn")
-    print(text)
-password()
+# def password():
+#     random="person"
+#     text=random.strip("pn")
+#     print(text)
+# password()
+
+def fruits():
+    basket="I like bananas. bananas grow in the forest bananas.bananas"
+    b=basket.replace("bananas","apples")
+    print(b)
+fruits()
     
    
