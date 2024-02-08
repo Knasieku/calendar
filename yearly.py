@@ -26,10 +26,21 @@
 #     print(text)
 # password()
 
-def fruits():
-    basket="I like bananas. bananas grow in the forest bananas.bananas"
-    b=basket.replace("bananas","apples")
-    print(b)
-fruits()
+# def fruits():
+#     basket="I like bananas. bananas grow in the forest bananas.bananas"
+#     b=basket.replace("bananas","apples")
+#     print(b)
+# fruits()
+    
+age=[11,7,32,45,5]
+def age_check(a):
+    if a<10:
+        return False
+    else:
+        return True
+adult=filter(age_check,age)
+for a in adult:
+    print(a)
+    
     
    
